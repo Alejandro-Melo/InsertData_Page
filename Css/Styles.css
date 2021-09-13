@@ -38,13 +38,11 @@ nav a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-decoration: none;
-    box-shadow: 10px;
 }
 
 .container{
     border-width: 10px;
     border-radius: 10px;
-    box-shadow: 1px;
     
 }
 
@@ -109,8 +107,7 @@ nav a{
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
-    text-align: left;
-    border: 1px, solid, black;  
+    text-align: left; 
 }
 
 
@@ -205,10 +202,6 @@ footer h3:hover{
 
 h1{
     text-align: center;
-}
-
-a href{
-    transition: all 0,5s;
 }
 
 input::-webkit-outer-spin-button,
