@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Css/Styles.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="Banner_area">
+  </div>
+<div class="container">
+    <div class="top_nav">
+      <ul>
+      <li><a href="#usuarios">Usuarios</a></li>
+      <li><a href="#lista_usuarios">Lista de Usuarios</a></li>
+      <li><a href="#tabla_usuarios">Tabla de Usuarios</a></li>
+      </ul>
+    </div>
+    <main>
+    <form class="formLeft">
+        <h1 id="usuarios">Registro de Nuevo Trabajador</h1> <br>
+        
+        <div class="inputWrapper">
+          <label for="Nombre">Nombre</label>
+          <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+        </div>
+
+        <div class="inputWrapper">
+          <label for="Apellido">Apellido</label>
+          <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+        </div>
+
+        <div class="inputWrapper">
+          <label for="Email">Email</label>
+          <input type="email" id="Email" name="Email" placeholder="usuario@gmail.com" required>
+        </div>
+
+        <div class="inputWrapper">
+          <label for="Telefono">Telefono</label>
+          <input type="number" id="Telefono" name="Telefono" placeholder="+59896003249" required>
+        </div>
+
+        <div class="inputWrapper">
+          <label for="Cedula">Cédula de Identidad</label>
+          <input type="number" id="Cedula" name="Cedula" placeholder="35345692" required>
+        </div>
+
+        <div class="inputWrapper">
+          <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <form class="formRight">
+      <h1 id= "lista_usuarios">Seguimiento y Desempeño</h1>
+
+      <div class="inputWrapper">
+        <label for="Usuario">Trabajadores Registrados</label>
+        <select name="Usuario" id="Usuario">
+          <option value="1">Juan Carlos</option>
+          <option value="2">Roberto Mendez</option>
+          <option value="3">Fakumbo Talawanka</option>
+          <option value="4">Ahmed Abdhula</option>
+        </select>
+      </div>
+
+      <div class="inputWrapper">
+        <label for="Comentarios">Comentarios</label>
+        <textarea id="Comentarios" name="Comentarios"></textarea>
+      </div>
+
+      <div class="inputWrapper">
+        <button type="submit">Agregar/Actualizar</button>
+        <button type="reset">Reset</button>
+      </div>
+
+      <div class="inputWrapper">
+        <h2 id="tabla_usuarios">Lista de Trabajadores</h2> <br>
+      </div>
+
+      <div class="inputWrapper">
+        
+        <ul>
+          <li>Juan Carlos</li>
+          <li>Roberto Mendez</li>
+          <li>Fakumbo Talawanka</li>
+          <li>Ahmed Abdhula</li>
+        </ul>
+
+      </div>
+    </form>
+    <form class="formCenter">
+      <h1 for="inputWrapper">Tabla de Trabajadores Registrados</h1>
+      <div class="inputWrapper" id="inputWrapper">
+        <table>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+          </tr>
+          <tr>
+            <td>Juan</td>
+            <td>Carlos</td>
+          </tr>
+          <tr>
+            <td>Roberto</td>
+            <td>Mendez</td>
+          </tr>
+          <tr>
+            <td>Fakumbo</td>
+            <td>Talawanka</td>
+          </tr>
+          <tr>
+            <td>Ahmed</td>
+            <td>Abdhula</td>
+          </tr>
+        </table>
+      </div>
+    </form>
+    </main>
+    <footer>
+      <div>
+        <h3>Alejandro Melo 2ºIC</h3>
+      </div>
+      <div>
+        <a href="https://github.com/Alejandro-Melo">Mi Github</a>
+      </div>
+    </footer>
+    
+</body>
+</html>
