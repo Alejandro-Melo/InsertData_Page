@@ -1,16 +1,21 @@
-*{
-    margin: auto;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    text-align: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgb(212, 202, 202) 0%, rgb(138, 126, 109)68%, rgb(78, 77, 77) 100%);
+body {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(212, 202, 202) 0%,
+    rgb(138, 126, 109) 68%,
+    rgb(78, 77, 77) 100%
+  );
 }
 
-.Banner_area{
+.Banner_area {
   background-image: url("../Img/Sunset.jpg");
   min-height: 580px;
   background-position: center;
@@ -19,189 +24,166 @@ body{
   position: relative;
 }
 
-section{
-    height: 100px;
-    z-index: 12;
-    position:relative;
-    background-color: cadetblue;
-    transition: all 1s;
+section {
+  height: 100px;
+  z-index: 12;
+  position: relative;
+  background-color: cadetblue;
+  transition: all 1s;
 }
 
 nav {
-    width: 20%;
-    text-align: left;
-    border: black solid 20px;
+  width: 20%;
+  text-align: left;
+  border: black solid 20px;
 }
 
-
-nav a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration: none;
+nav a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.container{
-    border-width: 10px;
-    border-radius: 10px;
-    
+.container {
+  border-width: 10px;
+  border-radius: 10px;
 }
-
 
 .top_nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 400px;
-    text-align: left;
-    background-color: rgb(68, 68, 68);
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  text-align: left;
+  background-color: rgb(68, 68, 68);
+}
+
 .top_nav li a {
-    display: block;
-    color: white;
-    padding: 8px 16px;
-     text-decoration: none;;
-  }
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
 .top_nav a:hover {
-        background-color: #ddd;
-        color: rgb(71, 69, 69);
-      }
-.top_nav a:active{
-        background-color: grey;
-        color: black;
+  background-color: #ddd;
+  color: rgb(71, 69, 69);
+}
+.top_nav a:active {
+  background-color: grey;
+  color: black;
 }
 
-.formLeft{
-    float:initial;
-    width: 30%;
-    top: 0;
-    margin: auto;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 7px;
+form {
+  float: initial;
+  width: 30%;
+  top: 0;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px;
 }
 
-.formRight{
-    float:initial;
-    width: 35%;
-    top: 0;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 7px;
+.inputWrapper {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
 }
 
-.formCenter{
-    float:initial;
-    width: 35%;
-    top: 0;
-    margin: auto;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 7px;
-    transition: width 2s;
+.inputWrapper textarea {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-color: rgb(250, 177, 67);
+  color: rgb(0, 0, 0);
 }
 
-
-.inputWrapper{
-    width: 100%;
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: left; 
+.inputWrapper select {
+  width: 50%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 2px;
+  border-color: rgb(250, 177, 67);
+  color: rgb(0, 0, 0);
 }
 
-
-.inputWrapper textarea{
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: 18px;
-    padding: 10px;
-    border-color: rgb(250, 177, 67);
-    color: rgb(0, 0, 0);
-}
-
-.inputWrapper select{
-    width: 50%;
-    margin-bottom: 10px;
-    font-size: 18px;
-    padding: 2px;
-    border-color: rgb(250, 177, 67);
-    color: rgb(0, 0, 0);
-}
-
-.inputWrapper input{
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 18px;
-    padding: 10px;
-    background: transparent;
-    border-color: rgb(250, 177, 67);
-    color: rgb(0, 0, 0);
+.inputWrapper input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+  background: transparent;
+  border-color: rgb(250, 177, 67);
+  color: rgb(0, 0, 0);
 }
 
 button {
-    text-align: center;
-    background: rgb(255, 158, 66);
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    width: 40%;
-    transition: all 0.2s ease 0s;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+  text-align: center;
+  background: rgb(255, 158, 66);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  width: 40%;
+  transition: all 0.2s ease 0s;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
 }
 
-table{
-    border-collapse: collapse;
-    width: 100%;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-td, th{
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #000000;
-    transition: background-color 0.5s, color 0.25s;
+td,
+th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #000000;
+  transition: background-color 0.5s, color 0.25s;
 }
 
-td:hover, th:hover{
-    background-color: black;
-    color: white;
+td:hover,
+th:hover {
+  background-color: black;
+  color: white;
 }
 
-.table:hover{
-    width: 45%;
+.table:hover {
+  width: 45%;
 }
 
-footer{
-    position: relative;
-width:100%;
-bottom: 0;
-height:50px;
-background: grey;
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  background: grey;
 }
 
-footer a{
-    color: black;
-    text-decoration: none;
-    transition: all 0.5s;
+footer a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
 }
 
-footer a:hover{
-    color: white;
+footer a:hover {
+  color: white;
 }
 
-footer h3{
-    color: black;
-    transition: all 0.5s;
-    text-align: center;
+footer h3 {
+  color: black;
+  transition: all 0.5s;
+  text-align: center;
 }
 
-footer h3:hover{
-    color: white;
+footer h3:hover {
+  color: white;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 input::-webkit-outer-spin-button,
@@ -211,70 +193,49 @@ input::-webkit-inner-spin-button {
 }
 
 @media all and (max-width: 1000px) {
-    
-    .top_nav ul {
-        list-style-type: none;
-        overflow: hidden;
-        margin: 0;
-        width: 100%;
-        padding: 0;
-        text-align: left;
-        background-color: rgb(68, 68, 68);
-      }
-      
-    .top_nav li{
-        float: left;
-    }
-    .top_nav li a {
-        display: block;
-        color: white;
-        padding: 8px 16px;
-         text-decoration: none;;
-      }
-    
-    .top_nav a:hover {
-            background-color: #ddd;
-            color: rgb(71, 69, 69);
-          }
-    .top_nav a:active{
-            background-color: grey;
-            color: black;
-    }
-    
-    .formLeft{
-        float:initial;
-        width: 80%;
-        top: 0;
-        margin: auto;
-        padding: 10px 20px;
-        margin-top: 20px;
-        border-radius: 7px;
-    }
-    
-    .formRight{
-        float:initial;
-        width: 75%;
-        top: 0;
-        padding: 10px 20px;
-        margin-top: 20px;
-        border-radius: 7px;
-    }
-    
-    .formCenter{
-        float:initial;
-        width: 75%;
-        top: 0;
-        margin: auto;
-        padding: 10px 20px;
-        margin-top: 20px;
-        border-radius: 7px;
-        transition: width 2s;
-    }
-    footer{
-        position: relative;
-   width:100%;
-   bottom: 0;
-   height:50px;
-   background: grey;
-    }
+  .top_nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    background-color: rgb(68, 68, 68);
+  }
+
+  .top_nav li {
+    float: left;
+  }
+  .top_nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .top_nav a:hover {
+    background-color: #ddd;
+    color: rgb(71, 69, 69);
+  }
+  .top_nav a:active {
+    background-color: grey;
+    color: black;
+  }
+
+  form {
+    float: initial;
+    width: 80%;
+    top: 0;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+  }
+  footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    background: grey;
+  }
 }
